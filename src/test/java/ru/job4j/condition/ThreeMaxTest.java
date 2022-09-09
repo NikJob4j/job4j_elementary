@@ -6,11 +6,11 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class ThreeMaxTest {
         @Test
         public void firstMax() {
-            int first = 10;
+            int first = 11;
             int second = 5;
             int third = 1;
             int result = ThreeMax.max(first, second, third);
-            int expected = 10;
+            int expected = 11;
             assertThat(result).isEqualTo(expected);
         }
 
